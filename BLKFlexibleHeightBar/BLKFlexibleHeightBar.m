@@ -55,6 +55,7 @@
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
     [self commonInit];
     self.maximumBarHeight = CGRectGetMaxY(self.bounds);
 }
